@@ -1,0 +1,68 @@
+.root{
+    -fx-background-image: url("1.jpg");
+    -fx-background-size: 100%;
+}
+.button{
+    -fx-font: 14px "Arial";
+    -fx-text-fill: black;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(one-pass-box, #000000, 14, 0.0, 6, 0);
+    -fx-background-radius: 50px;
+}
+.choice-box{
+    -fx-font: 14px "Arial";
+    -fx-padding: 1;
+    -fx-effect: dropshadow(one-pass-box, #000000, 14, 0.0, 6, 0);
+    -fx-background-radius: 50px;
+}
+
+.label{
+    -fx-font: 14px "Arial";
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(two-pass-box, #000000, 14, 20.0, 6, 0);
+    -fx-background-radius: 50px;
+}
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #990000;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #003333;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #999900;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
